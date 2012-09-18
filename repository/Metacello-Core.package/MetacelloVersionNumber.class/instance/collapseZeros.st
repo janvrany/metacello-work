@@ -1,4 +1,7 @@
-private
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: private
+"
 collapseZeros
 	"the rule must be that zeros can be collapsed as long as the series of zeros ends in a string term"
 

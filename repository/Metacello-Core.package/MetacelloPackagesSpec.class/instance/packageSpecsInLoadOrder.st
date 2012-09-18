@@ -1,4 +1,7 @@
-accessing
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: accessing
+"
 packageSpecsInLoadOrder
     | orderedSpecs moved lastMovedSpecs count terminationLimit map specsWithIncludes firstTime |
     "specification order is the default order"

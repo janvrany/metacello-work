@@ -1,0 +1,16 @@
+{
+	"_cypress_copyright" : "Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)",
+	"_stx_type" : "variableSubclass:instanceVariableNames:classVariableNames:poolDictionaries:category:",
+	"category" : "Metacello-Core-Constructors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"instvars" : [
+		 ],
+	"name" : "MetacelloMethodSectionPath",
+	"namespace" : "Smalltalk",
+	"pools" : [
+		 ],
+	"super" : "Array",
+	"superNamespace" : "Smalltalk" }

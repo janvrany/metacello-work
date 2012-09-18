@@ -1,4 +1,7 @@
-caching
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: caching
+"
 primeStackCacheFor: cacheName doing: noArgBlock defaultDictionary: aDictionary
 
 	self deprecated: 'use #primeStackCacheWith:doing:'.

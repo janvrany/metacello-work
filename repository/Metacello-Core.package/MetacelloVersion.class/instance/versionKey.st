@@ -1,4 +1,7 @@
-querying
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: querying
+"
 versionKey
 	"version printString, without the versionStatus decorations, suitable for using as a unique key for the 
 	 receiver in a dictionary"

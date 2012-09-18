@@ -1,4 +1,7 @@
-printing
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: printing
+"
 configMethodBodyOn: aStream indent: indent
 	| hasVersionString hasOperator hasProjectPackage hasLoads hasClassName hasPreLoadDoIt hasPostLoadDoIt |
 	hasClassName := self className ~~ nil.

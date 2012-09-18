@@ -1,0 +1,17 @@
+{
+	"_cypress_copyright" : "Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)",
+	"category" : "Metacello-Core-Exceptions-Errors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"instvars" : [
+		"packageSpec",
+		"repositories",
+		"repositoryError" ],
+	"name" : "MetacelloPackageSpecResolutionError",
+	"namespace" : "Smalltalk",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"superNamespace" : "Smalltalk" }

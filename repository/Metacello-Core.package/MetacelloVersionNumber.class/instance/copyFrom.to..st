@@ -1,4 +1,7 @@
-copying
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: copying
+"
 copyFrom: start to: stop 
 	"Answer a copy of a subset of the receiver, starting from element at 
 	index start until element at index stop."

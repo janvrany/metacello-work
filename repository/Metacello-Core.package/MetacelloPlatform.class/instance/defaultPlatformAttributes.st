@@ -1,4 +1,7 @@
-attributes
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: attributes
+"
 defaultPlatformAttributes
 	| versionString |
 	Smalltalk at: #SystemVersion ifPresent: [:cl |
