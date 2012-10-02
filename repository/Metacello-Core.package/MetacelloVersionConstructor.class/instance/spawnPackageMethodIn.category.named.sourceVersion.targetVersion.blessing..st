@@ -1,4 +1,7 @@
-deprecated
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: deprecated
+"
 spawnPackageMethodIn: aConfig category: methodCategory named: newSelector sourceVersion: sourceVersionString targetVersion: targetVersionString blessing: blessing
 
 	self deprecated: 'see MetacelloToolBox class>>createBaseline:for:from:description: for replacement method'.

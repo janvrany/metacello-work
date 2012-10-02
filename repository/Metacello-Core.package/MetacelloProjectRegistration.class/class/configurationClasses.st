@@ -1,4 +1,7 @@
-accessing
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: accessing
+"
 configurationClasses
     "Return a set of the Metacello configuration classes that have been loaded into the image."
 

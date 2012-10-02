@@ -1,4 +1,7 @@
-api spec callbacks
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: api spec callbacks
+"
 projectForVersion: aString copyFrom: oldSpecName with: aBlock
     | spec projectSpec |
     projectSpec := self project projectSpec

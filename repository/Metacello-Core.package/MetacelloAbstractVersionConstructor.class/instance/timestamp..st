@@ -1,4 +1,7 @@
-api
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: api
+"
 timestamp: aBlockOrStringOrDateAndTime
     "Define timestamp field of version spec (MetacelloMCVersionSpec).
 	 If <aBlockOrStringOrDateAndTime> is a String, the version spec timetamp is set to the String.

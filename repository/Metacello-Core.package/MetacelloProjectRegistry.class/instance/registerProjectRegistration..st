@@ -1,9 +1,14 @@
-registration
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: registration
+"
 registerProjectRegistration: aMetacelloProjectRegistration
     "unconditionally register <newRegistration> ... use with care"
 
-    aMetacelloProjectRegistration configurationProjectSpec
-        ifNotNil: [ :spec | 
+    | spec |
+
+    (spec := aMetacelloProjectRegistration configurationProjectSpec)
+        ifNotNil: [
             self configurationRegistry
                 at: spec className
                 ifPresent: [ :existing | 
@@ -16,8 +21,8 @@ registerProjectRegistration: aMetacelloProjectRegistration
                                                 , aMetacelloProjectRegistration printString ] ].
             spec immutable.
             self configurationRegistry at: spec className put: aMetacelloProjectRegistration ].
-    aMetacelloProjectRegistration baselineProjectSpec
-        ifNotNil: [ :spec | 
+    (spec := aMetacelloProjectRegistration baselineProjectSpec)
+        ifNotNil: [
             self baselineRegistry
                 at: spec className
                 ifPresent: [ :existing | 

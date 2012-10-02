@@ -1,4 +1,7 @@
-api spec callbacks
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: api spec callbacks
+"
 packageForVersion: aString overrides: aBlock
     | spec |
     spec := self project packageSpec

@@ -1,4 +1,7 @@
-api
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: api
+"
 package: packageName with: aBlockOrString
     "Define specification for package <packageName>.
 	 If <aBlockOrString> is a String (or Symbol), the String is expected to be a version (or symbolic version).

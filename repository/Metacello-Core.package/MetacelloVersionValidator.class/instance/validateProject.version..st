@@ -1,4 +1,7 @@
-validation
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: validation
+"
 validateProject: project version: versionString
 	| version spec |
 	(self visited includes: project configuration class)

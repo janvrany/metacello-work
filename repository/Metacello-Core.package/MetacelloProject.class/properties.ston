@@ -1,0 +1,23 @@
+{
+	"_cypress_copyright" : "Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)",
+	"category" : "Metacello-Core-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"instvars" : [
+		"versionMap",
+		"symbolicVersionMap",
+		"errorMap",
+		"loader",
+		"loaderClass",
+		"loadType",
+		"configuration",
+		"projectAttributes",
+		"versionNumberClass" ],
+	"name" : "MetacelloProject",
+	"namespace" : "Smalltalk",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"superNamespace" : "Smalltalk" }

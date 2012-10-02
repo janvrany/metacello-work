@@ -1,4 +1,9 @@
-lookup
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: lookup
+"
 lookupBaselineSpec
-    baselineProjectSpec ifNotNil: [ :spec | ^ spec ].
+    | spec |
+
+    spec := baselineProjectSpec ifNotNil: [ ^ spec ].
     ^ configurationProjectSpec

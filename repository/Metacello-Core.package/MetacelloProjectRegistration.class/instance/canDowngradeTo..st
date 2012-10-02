@@ -1,4 +1,7 @@
-testing
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: testing
+"
 canDowngradeTo: aProjectRegistration
     "true if there are no load conflicts
         OR

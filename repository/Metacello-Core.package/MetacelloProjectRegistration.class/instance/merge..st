@@ -1,4 +1,7 @@
-merging
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: merging
+"
 merge: aProjectRegistration
     "should only be called from MetacelloProjectRegistration class>>mergeRegistration:with: ... merge is done when a spec has been loaded into the image"
 

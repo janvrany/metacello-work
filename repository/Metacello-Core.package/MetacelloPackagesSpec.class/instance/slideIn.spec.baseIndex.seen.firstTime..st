@@ -1,4 +1,7 @@
-accessing
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: accessing
+"
 slideIn: orderedSpecs spec: targetSpec baseIndex: baseIndex seen: seen firstTime: firstTime
 	| targetIndex requires targetRequires targetRequiresIndexes minIndex baseSpec required |
 

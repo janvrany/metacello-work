@@ -1,0 +1,18 @@
+{
+	"_cypress_copyright" : "Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)",
+	"category" : "Metacello-Core-Constructors",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"instvars" : [
+		"block",
+		"versionSpec",
+		"parent",
+		"methodSections" ],
+	"name" : "MetacelloVersionMethodSection",
+	"namespace" : "Smalltalk",
+	"pools" : [
+		 ],
+	"super" : "MetacelloMethodSection",
+	"superNamespace" : "Smalltalk" }

@@ -1,0 +1,20 @@
+{
+	"_cypress_copyright" : "Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)",
+	"category" : "Metacello-Core-Validation",
+	"classinstvars" : [
+		"reasonCodeDescriptions" ],
+	"classvars" : [
+		 ],
+	"instvars" : [
+		"configurationClass",
+		"exludededValidations",
+		"validationReport",
+		"recurse",
+		"debug",
+		"visited" ],
+	"name" : "MetacelloVersionValidator",
+	"namespace" : "Smalltalk",
+	"pools" : [
+		 ],
+	"super" : "MetacelloAbstractConstructor",
+	"superNamespace" : "Smalltalk" }

@@ -1,4 +1,7 @@
-private
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: private
+"
 compareLessThan: myComponents other: otherComponents version: version
     | mySize aSize commonSize count more |
     mySize := myComponents size.

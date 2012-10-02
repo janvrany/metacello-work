@@ -1,4 +1,7 @@
-initialization
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: initialization
+"
 primeRegistryFromImage
     "MetacelloProjectRegistration primeRegistryFromImage"
 
@@ -6,9 +9,11 @@ primeRegistryFromImage
         do: [ :cl | 
             (self configurationRegistry includesKey: cl name asString)
                 ifFalse: [ 
+                    | version |
+
                     "not registered"
-                    cl project currentVersion
-                        ifNotNil: [ :version | 
+                    (version := cl project currentVersion)
+                        ifNotNil: [ 
                             | projectSpec |
                             projectSpec := (version project projectSpec
                                 name: (MetacelloScriptEngine baseNameOf: cl name asString);
@@ -23,9 +28,11 @@ primeRegistryFromImage
         do: [ :cl | 
             (self baselineRegistry includesKey: cl name asString)
                 ifFalse: [ 
+                    | version |
                     "not registered"
-                    cl project currentVersion
-                        ifNotNil: [ :version | 
+
+                    (version := cl project currentVersion)
+                        ifNotNil: [
                             | projectSpec |
                             projectSpec := (version project projectSpec
                                 name: (MetacelloScriptEngine baseNameOf: cl name asString);

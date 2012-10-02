@@ -1,4 +1,7 @@
-api
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: api
+"
 description: aBlockOrString
     "Define description field of version spec (MetacelloMCVersionSpec).
 	 If <aBlockOrString> is a String, the version spec blessing is set to the String. It is recommended to use a Symbol.

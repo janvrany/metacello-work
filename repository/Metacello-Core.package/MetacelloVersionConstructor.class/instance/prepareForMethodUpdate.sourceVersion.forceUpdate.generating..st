@@ -1,4 +1,7 @@
-deprecated
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: deprecated
+"
 prepareForMethodUpdate: aConfig sourceVersion: sourceVersionString forceUpdate: forceUpdate generating: generateBlock
 	| pragmaDict versionSpecs pragmaMap updatedPackageSpecs updatedPackageSpecsMap reversed pragmaColl seenUpdatedPackageSpecs |
 	self deprecated: 'see MetacelloToolBox for replacement methods'.

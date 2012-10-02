@@ -1,4 +1,7 @@
-handlers
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: handlers
+"
 handleLookupProjectSpecForLoad: exception
     "if overrideProjectSpec is nil, use currentVersion in image, ignoreImage is false"
 

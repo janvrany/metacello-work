@@ -1,4 +1,7 @@
-operations
+"
+notice: Copyright Dale Henrichs 2008-2012\nCopyright Jan Vrany 2012 (port & Smalltalk/X specific code)
+category: operations
+"
 performCurrentVersionTestAgainst: vrsn operator: anOperator targetVersionStatus: targetVersionStatus using: anMCLoader
     "answer true if the current state of image is to be left as is"
 
